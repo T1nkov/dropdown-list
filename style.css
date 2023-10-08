@@ -21,6 +21,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  cursor: pointer;
 }
 
 .input input {
@@ -70,5 +71,6 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
