@@ -28,6 +28,7 @@ select.addEventListener("dblclick", function (event) {
   input.disabled = false;
   block.style = "visability: visible";
   input.value = "";
+  p.addEventListener;
 
 });
 
