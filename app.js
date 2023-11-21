@@ -29,16 +29,16 @@ select.addEventListener("dblclick", function (event) {
   block.style = "visability: visible";
   input.value = "";
   p.addEventListener;
-
+  input.value = "";
+  p.addEventListener;
 });
 
-input.addEventListener('keydown', (event)=>{
-    if(event.key != 'Enter') return
-    else{
-        const p = document.createElement('p')
-        p.textContent = input.value
-        block.appendChild(p)
-        input.value = ''
-
-    }
-})
+input.addEventListener("keydown", (event) => {
+  if (event.key != "Enter") return;
+  else {
+    const p = document.createElement("p");
+    p.textContent = input.value;
+    block.appendChild(p);
+    input.value = "";
+  }
+});
